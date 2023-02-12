@@ -2,13 +2,11 @@
 System.Console.WriteLine("Введите 2 числа");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
-int max = a;
-if (b > a)
+if (a > b)
 {
-    max = b;
-    System.Console.WriteLine($"Max = {max}");
+    System.Console.WriteLine($"Max = {a}");
 }
 else
 {
-    System.Console.WriteLine($"Max = {max}");
+    System.Console.WriteLine($"Max = {b}");
 }
